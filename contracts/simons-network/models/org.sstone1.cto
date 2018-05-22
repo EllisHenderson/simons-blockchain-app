@@ -23,6 +23,9 @@ participant SampleParticipant identified by participantId {
   o String firstName
   o String lastName
 }
+asset SimonsAsset extends SampleAsset {
+
+}
 
 asset SampleAsset identified by assetId {
   o String assetId
